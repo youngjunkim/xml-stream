@@ -1,12 +1,12 @@
 {
-  "name": "xml-stream",
+  "name": "yj-xml-stream",
   "description": "XML stream to JavaScript object converter based on Expat.",
   "keywords": [
     "xml",
     "parser",
     "expat"
   ],
-  "version": "0.4.5",
+  "version": "0.0.1",
   "author": "AssistUnion <info@assistunion.com>",
   "maintainers": [
     "Anatoly Ressin <anatoly@assistunion.com>",
@@ -25,10 +25,16 @@
     "readable-stream": "^1.0.31"
   },
   "directories": {
-    "lib": "./lib"
+    "example": "examples",
+    "test": "tests"
   },
   "main": "index",
   "devDependencies": {
     "mocha": "^1.21.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/assistunion/xml-stream/issues"
+  },
+  "homepage": "https://github.com/assistunion/xml-stream#readme",
+  "license": "ISC"
 }
